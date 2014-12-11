@@ -3,14 +3,13 @@
 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<parent>
+	
     <groupId>com.otterbox.eai</groupId>
-    <artifactId>bw-parent</artifactId>
-    <version>201412.0.4-SNAPSHOT</version>
-    <relativePath>../pom.xml</relativePath>
-  </parent>
-
 	<artifactId>test-bw</artifactId>
+     <version>201412.0.4-SNAPSHOT</version>
+  
+
+	
 	<packaging>tibco-bw</packaging>
 
 	<build>
