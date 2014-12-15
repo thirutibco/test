@@ -2,30 +2,20 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-
 	
-    <groupId>com.otterbox.eai</groupId>
-	<artifactId>test-bw</artifactId>
-     <version>201412.0.4-SNAPSHOT</version>
+ <groupId>com.mycompany.app</groupId>
+  <artifactId>my-app</artifactId>
+  <version>1.0-SNAPSHOT</version>
   
+  <name>Maven Quick Start Archetype</name>
+  <url>http://maven.apache.org</url>
 
-	
-	<packaging>tibco-bw</packaging>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>com.otterbox.eai</groupId>
-				<artifactId>tibco-bw-maven-plugin</artifactId>
-				<extensions>true</extensions>
-				<configuration>
-					<tibcoSourceDirectory>${basedir}/testbw</tibcoSourceDirectory>
-				</configuration>
-			</plugin>
-					
-		</plugins>
-	</build>
-	
- 		
-	
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.8.2</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
 </project>
